@@ -1,8 +1,8 @@
 Code In Place Final Project
 Web Scraping A Self Help Books Recommending Website
 
-To find the find script, go to: main-scraper.py
-To find the filtering script, go to: filer.py
+To find the find script, go to: main_scraper.py |
+To find the filtering script, go to: price_filer.py
 
 ---------------------------------------------------------------------------------------------------------
 For the final project of Code In Place, I decided to make a web scraper by using Python.
