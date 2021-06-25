@@ -1,7 +1,7 @@
 Code In Place Final Project:
 Web Scraping A Self Help Books Recommending Website
 
-To find the find script, go to: main_scraper.py |
+To find the scraper script, go to: main_scraper.py |
 To find the filtering script, go to: price_filer.py
 
 ---------------------------------------------------------------------------------------------------------
