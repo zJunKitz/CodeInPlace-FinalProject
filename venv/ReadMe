@@ -1,0 +1,47 @@
+Code In Place Final Project
+Web Scraping A Self Help Books Recommending Website
+
+For the final project of Code In Place, I decided to make a web scraper by using Python.
+I find the idea interesting because one, it definitely sounded awesome and badass, two,
+it might be a pratical skill worth learning as mentioned by numerous posts. I chosed Python
+simply because I am currently more familiar with it and the Code In Place focuses on Python.
+
+Milestones:
+1. Scraping the names and the prices of the books
+2. Save the final data into a CSV file
+3. (Optional) Make a arranging system to rearrange the books ascendingly according to their price
+
+Challenges:
+1. Not knowing how to scrape multiple pages in the same website (Solved)
+2. Amazon's script detecter is robust and apparently they prefer me to use APIs rather than scripts (Failed)
+
+
+Credits:
+1. Youtube tutorial (Data Science Dojo):
+https://www.youtube.com/watch?v=XQgXKtPSzUI&t=11s
+2. Youtube tutorial (Corey Schafer):
+https://www.youtube.com/watch?v=ng2o98k983k
+3. Youtube tutorial (John Watson Rooney):
+https://www.youtube.com/watch?v=4VfqVpTz4Q4
+
+***
+from bs4 import BeautifulSoup as soup
+from requests_html import HTMLSession
+session = HTMLSession()
+my_url = 'https://www.amazon.com/s?k=roller+skates+black&ref=nb_sb_noss'
+response = session.get(my_url)
+response.html.render(sleep=1)
+
+page = soup(response.html.html, 'html.parser')
+page
+
+Credits:
+[Music]
+Part 1 - https://www.mediafire.com/file/9w7no10ff2mg5dc/Path_to_Follow.mp3/file
+Part 2 -
+Part 3 - https://www.bensound.com/royalty-free-music/track/funky-suspense
+Part 4 -
+
+[Materials]
+Reddit page - https://www.reddit.com/r/learnprogramming/comments/lp1hi4/is_webscraping_a_good_skill_to_learn_as_a_beginner/
+Medium page - https://towardsdatascience.com/https-medium-com-hiren787-patel-web-scraping-applications-a6f370d316f4
