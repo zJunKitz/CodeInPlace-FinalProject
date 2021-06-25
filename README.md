@@ -1,6 +1,10 @@
 Code In Place Final Project
 Web Scraping A Self Help Books Recommending Website
 
+To find the find script, go to: main-scraper.py
+To find the filtering script, go to: filer.py
+
+---------------------------------------------------------------------------------------------------------
 For the final project of Code In Place, I decided to make a web scraper by using Python.
 I find the idea interesting because one, it definitely sounded awesome and badass, two,
 it might be a pratical skill worth learning as mentioned by numerous posts. I chosed Python
@@ -9,7 +13,7 @@ simply because I am currently more familiar with it and the Code In Place focuse
 Milestones:
 1. Scraping the names and the prices of the books
 2. Save the final data into a CSV file
-3. (Optional) Make a arranging system to rearrange the books ascendingly according to their price
+3. (Optional) Make a filtering system to rearrange the books ascendingly according to their price
 
 Challenges:
 1. Not knowing how to scrape multiple pages in the same website (Solved)
